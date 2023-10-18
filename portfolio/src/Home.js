@@ -117,7 +117,7 @@ else{
   <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
     <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Vicky Kumar Mishra.</h1>
     <h3><b>Full Stack developer.</b></h3>
-    <img src="my photo black.jpg" alt="boy" class="w3-image" width="600" height="600" style={{borderRadius:'50%',border:'0.2rem solid white'}}/>
+    <img src="my photo black.jpg" alt="boy" class="w3-image" width="500" height="500" style={{borderRadius:'50%',border:'0.2rem solid white'}}/>
   </header>
 
 
