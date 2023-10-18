@@ -87,15 +87,15 @@ else{
     <i class="fa fa-home w3-xxlarge"></i>
     <p>HOME</p>
   </a>
-  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-black">
     <i class="fa fa-user w3-xxlarge"></i>
     <p>ABOUT</p>
   </a>
-  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-black">
     <i class="fa fa-eye w3-xxlarge"></i>
     <p>PROJECTS</p>
   </a>
-  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-black">
     <i class="fa fa-envelope w3-xxlarge"></i>
     <p>CONTACT</p>
   </a>
@@ -116,8 +116,8 @@ else{
 
   <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
     <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Vicky Kumar Mishra.</h1>
-    <p><b>Full Stack developer.</b></p>
-    <img src="my photo black.jpg" alt="boy" class="w3-image" width="600" height="600" style={{borderRadius:'50%'}}/>
+    <h3><b>Full Stack developer.</b></h3>
+    <img src="my photo black.jpg" alt="boy" class="w3-image" width="600" height="600" style={{borderRadius:'50%',border:'0.2rem solid white'}}/>
   </header>
 
 
@@ -190,13 +190,13 @@ With a keen eye for detail and a passion for continuous learning, I am eager to 
       <div class="w3-half w3-margin-bottom">
         <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
           <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
-          <li class="w3-padding-16">Web Design</li>
-          <li class="w3-padding-16">Photography</li>
+          <li class="w3-padding-16">Frontend Development</li>
+          <li class="w3-padding-16">3-5 pages</li>
           <li class="w3-padding-16">5GB Storage</li>
-          <li class="w3-padding-16">Mail Support</li>
+          <li class="w3-padding-16">Upto 3 Times support</li>
           <li class="w3-padding-16">
             <h2>$ 10</h2>
-            <span class="w3-opacity">per month</span>
+            <span class="w3-opacity"></span>
           </li>
           <li class="w3-light-grey w3-padding-24">
             <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
@@ -207,13 +207,13 @@ With a keen eye for detail and a passion for continuous learning, I am eager to 
       <div className="w3-half">
         <ul className="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
           <li className="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
-          <li className="w3-padding-16">Web Design</li>
-          <li className="w3-padding-16">Photography</li>
-          <li className="w3-padding-16">50GB Storage</li>
+          <li className="w3-padding-16">Frontend Development</li>
+          <li className="w3-padding-16">5-10 Pages</li>
+          <li className="w3-padding-16">20GB Storage</li>
           <li className="w3-padding-16">Endless Support</li>
           <li className="w3-padding-16">
             <h2>$ 25</h2>
-            <span className="w3-opacity">per month</span>
+            
           </li>
           <li className="w3-light-grey w3-padding-24">
             <button className="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
