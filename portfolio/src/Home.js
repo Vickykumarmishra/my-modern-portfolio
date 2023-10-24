@@ -236,7 +236,7 @@ With a keen eye for detail and a passion for continuous learning, I am eager to 
       <div class="w3-half">
         <p style={{color:"white"}}>Travel Website</p>
         <img src="bike4.jpg" style={{width:'100%'}} />
-       <a href='https://ride-ready-e9xs.vercel.app'><div className='clickv' style={{color:'black',backgroundColor:"white"}}>Click to view</div></a> 
+       <a href='https://travel-website-xi-drab.vercel.app/'><div className='clickv' style={{color:'black',backgroundColor:"white"}}>Click to view</div></a> 
         <p style={{color:"white"}}>Portfolio website</p>
         <img src="portfolio.jpg" style={{width:'100%'}}/>
        <a href='#about'><div className='clickv' onClick={handleclick} style={{color:'black',backgroundColor:"white"}}>Click to view</div></a> 
