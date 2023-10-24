@@ -188,7 +188,7 @@ With a keen eye for detail and a passion for continuous learning, I am eager to 
     <h3 class="w3-padding-16 w3-text-light-grey">My Price</h3>
     <div class="w3-row-padding" style={{margin:'0 -16px'}}>
       <div class="w3-half w3-margin-bottom">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+        <ul class="w3-ul w3-white w3-center ">
           <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
           <li class="w3-padding-16">Frontend Development</li>
           <li class="w3-padding-16">3-5 pages</li>
@@ -205,7 +205,7 @@ With a keen eye for detail and a passion for continuous learning, I am eager to 
       </div>
 
       <div className="w3-half">
-        <ul className="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+        <ul className="w3-ul w3-white w3-center ">
           <li className="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
           <li className="w3-padding-16">Frontend Development</li>
           <li className="w3-padding-16">5-10 Pages</li>
