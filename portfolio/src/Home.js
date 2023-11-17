@@ -5,6 +5,7 @@ import emailjs from '@emailjs/browser';
 import { useFormik } from 'formik'
 import { useRef } from 'react';
 import * as yup from "yup";
+import { motion } from 'framer-motion';
 import { signUpSchema } from './schemas/Index';
 export default function Home() {
 
@@ -115,10 +116,10 @@ else{
 <div class="w3-padding-large" id="main">
 
   <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Vicky Kumar Mishra.</h1>
+    <h1 class="w3-jumbo" style={{textShadow:"3px 3px 3px white"}}><span class="w3-hide-small">I'm</span> Vicky Kumar Mishra.</h1>
     <h3><b>Full Stack developer.</b></h3>
     <br></br>
-    <img src="my photo black.jpg" alt="boy" class="w3-image" width="500" height="500" style={{borderRadius:'50%',border:'0.2rem solid white'}}/>
+    <img src="my photo black.jpg" alt="boy" class="w3-image" width="500" height="500" style={{borderRadius:'50%',boxShadow: '5px 5px 5px white'}}/>
   </header>
 
 
@@ -182,9 +183,9 @@ With a keen eye for detail and a passion for continuous learning, I am eager to 
       </div>
     </div>
 
-    <a href='https://drive.google.com/file/d/1pjpSZU7pbQTGuV_FAhPEMYw06q4rSbjf/view?usp=sharing'><button class="w3-button w3-light-grey w3-padding-large w3-section">
+    <a href='https://drive.google.com/file/d/10KMcTwLEefxnfQXMe_hILFwh89W9J6Ph/view?usp=sharing'><motion.button whileHover={{scale:1.1}} class="w3-button w3-light-grey w3-padding-large w3-section" style={{border:'0.1rem solid black',boxShadow:'4px 4px 4px white'}}>
       <i class="fa fa-download"></i> Download Resume
-    </button></a>
+    </motion.button></a>
     
     <h3 class="w3-padding-16 w3-text-light-grey">My Price</h3>
     <div class="w3-row-padding" style={{margin:'0 -16px'}}>
@@ -200,7 +201,7 @@ With a keen eye for detail and a passion for continuous learning, I am eager to 
             <span class="w3-opacity"></span>
           </li>
           <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+            <motion.button  whileHover={{scale:1.1}}  class="w3-button w3-white w3-padding-large w3-hover-light-grey" style={{border:'0.1rem solid black',boxShadow:"4px 4px 4px black"}}>Sign Up</motion.button>
           </li>
         </ul>
       </div>
@@ -217,7 +218,7 @@ With a keen eye for detail and a passion for continuous learning, I am eager to 
             
           </li>
           <li className="w3-light-grey w3-padding-24">
-            <button className="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+            <motion.button whileHover={{scale:1.1}} className="w3-button w3-white w3-padding-large w3-hover-light-grey" style={{border:"0.1rem solid black",boxShadow:"4px 4px 4px black"}}>Sign Up</motion.button>
           </li>
         </ul>
       </div>
@@ -280,9 +281,9 @@ With a keen eye for detail and a passion for continuous learning, I am eager to 
       <p><input className="w3-input w3-padding-16" id='field4' type="text" placeholder="Message" value={values.message} onChange={handleChange} onBlur={handleBlur} name="message"/></p>
       {errors.message && touched.message?(<p  style={{color:'red'}} className='form-error'>{errors.message}</p>):null}
       <p>
-        <button  className="w3-button w3-light-grey w3-padding-large" type="submit">
+        <motion.button  whileHover={{scale:1.1}}  style={{boxShadow:"4px 4px 4px white",border:"0.1rem solid black"}} className="w3-button w3-light-grey w3-padding-large" type="submit">
           <i class="fa fa-paper-plane"></i> SEND MESSAGE
-        </button>
+        </motion.button>
       </p>
     </form>
 
