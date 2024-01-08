@@ -119,7 +119,7 @@ else{
     <h1 class="w3-jumbo" style={{textShadow:"3px 3px 3px white"}}><span class="w3-hide-small">I'm</span> Vicky Kumar Mishra.</h1>
     <h3><b>Full Stack developer.</b></h3>
     <br></br>
-    <img src="my photo black.jpg" alt="boy" class="w3-image" width="500" height="500" style={{borderRadius:'50%',boxShadow: '5px 5px 5px white'}}/>
+    {/* <img src="my photo black.jpg" alt="boy" class="w3-image" width="500" height="500" style={{borderRadius:'50%',boxShadow: '5px 5px 5px white'}}/> */}
   </header>
 
 
@@ -236,6 +236,8 @@ With a keen eye for detail and a passion for continuous learning, I am eager to 
 
     <div class="w3-row-padding" style={{margin:'0 -16px'}}>
       <div class="w3-half">
+
+     
         <p style={{color:"white"}}>Travel Website</p>
         <img src="bike4.jpg" style={{width:'100%'}} />
        <a href='https://travel-website-xi-drab.vercel.app/'><div className='clickv' style={{color:'black',backgroundColor:"white"}}>Click to view</div></a> 
@@ -248,10 +250,10 @@ With a keen eye for detail and a passion for continuous learning, I am eager to 
       </div>
 
       <div class="w3-half">
-        <p style={{color:'white'}}>Tourism Website</p>
-        <img src="tourism.jpg" style={{width:'100%'}}/>
-       <a href='https://tourism-web-with-react-by-vicky.vercel.app'><div className='clickv' style={{color:'black',backgroundColor:"white"}}>Click to view</div></a> 
        
+      <p style={{color:"white"}}>Blogging Website</p>
+        <img src="blogport.jpg" style={{width:'100%'}} />
+       <a href='https://blogging-website-fullstack-puce.vercel.app/'><div className='clickv' style={{color:'black',backgroundColor:"white"}}>Click to view</div></a> 
       </div>
 
     </div>
